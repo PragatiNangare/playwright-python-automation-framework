@@ -1,7 +1,6 @@
 import pytest 
 from pages.WindowsPage import WindowsPage
 
-@pytest.mark.run
 def test_new_tab(page):
     windows_page = WindowsPage(page)
     windows_page.load()
