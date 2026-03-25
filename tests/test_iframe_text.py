@@ -8,3 +8,5 @@ def test_iframe_text(page):
 
     text = iframe_page.get_text()
     assert text == "Your content goes here."
+
+    
