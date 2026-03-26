@@ -19,3 +19,4 @@ class UploadPage:
 
     def get_uploaded_filename(self):
         return self.uploaded_file.text_content().strip()
+    

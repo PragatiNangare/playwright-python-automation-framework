@@ -2,7 +2,7 @@ from pages.UploadPage import UploadPage
 import pytest
 import os
 
-@pytest.mark.run
+
 def test_file_upload(page):
     file_path = os.path.abspath("test_data/sample.txt")
     file_upload_page = UploadPage(page)
